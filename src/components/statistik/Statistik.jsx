@@ -70,7 +70,7 @@ export default function Statistik() {
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         <StatCard label="Gesamtflaschen">{gesamt}</StatCard>
         <StatCard label="Verschiedene Weine">{weine.length}</StatCard>
-        <StatCard label="Durchschnittsbewertung">
+        <StatCard label="Ø Bewertung">
           <div className="flex items-center gap-2">
             <span>{durchschnitt || '—'}</span>
             {durchschnitt > 0 && (
